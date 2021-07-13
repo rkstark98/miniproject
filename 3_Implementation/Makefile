@@ -10,7 +10,7 @@ src/contact_features.c\
 
 # All test source files
 TEST_SRC = src/contact_features.c\
-test/test_phonebook.c
+test/test_contact.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).outma
 
