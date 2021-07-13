@@ -27,8 +27,8 @@ int main()
     char f_name[30];
     printf("\t\t\t\t-------------CONTACT MANAGEMENT SYSTEM---------------\n\n\n\n");
 first: printf("\t\t\t\tList of operations\n\n");
-       printf("\t 1)LIST THE RECORDS \t 2)ADD A RECORD \t 3)DELETE A RECORD \n \t 4)MODIFY A RECORD \t 5)SEARCH A RECORD \t 6)EXIT");
-       printf("\n\nEnter your choice:");
+       printf("\t 1)LIST THE RECORD \t 2)ADD A RECORD \t 3)DELETE A RECORD \n \t 4)MODIFY A RECORD \t 5)SEARCH A RECORD \t 6)EXIT");
+       printf("\n\nEnter choice:");
        scanf("%d",&choice);
        switch(choice)
        {
