@@ -148,4 +148,4 @@ void string_upper(char *st1);
 */
 void sort_contacts(int no);
 
-#endif // PHONEHEADER_H_INCLUDED /* #define __PHONE_H__ */
+#endif // CONTACTHEADER_H_INCLUDED /* #define __CONTACT_H__ */

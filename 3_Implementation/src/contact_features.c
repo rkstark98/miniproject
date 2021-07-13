@@ -1,6 +1,6 @@
 /**
-* @file phonebook_operations.c
-* phonebook application with 5 operations
+* @file contact_features.c
+* contact application with 5 operations
 *
 */
 #include <stdio.h>

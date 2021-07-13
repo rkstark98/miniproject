@@ -1,6 +1,6 @@
 /**
-* @file test_phonebook.c
-* phonebook application with 5 operations for testing
+* @file test_contact.c
+* contact application with 5 operations for testing
 *
 */
 #include <CUnit/Basic.h>
@@ -9,8 +9,8 @@
 #include<stdlib.h>
 #include<string.h>
 /* Modify these two lines according to the project */
-#include <phoneheader.h>
-#define PROJECT_NAME    "phonebook"
+#include <contactheader.h>
+#define PROJECT_NAME    "contact"
 
 /* Prototypes for all the test functions */
 void test_listing(void);
