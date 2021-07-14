@@ -1,10 +1,10 @@
 /**
-* @file contactheader.h
-* contact header file. This header file contains definitions of all the functions. \n Structure is defined to store contact deatils. \n Array pointers of structure is defined to store address of the each contact.
+* @file phoneheader.h
+* Phonebook header file. This header file contains definitions of all the functions. \n Structure is defined to store contact deatils. \n Array pointers of structure is defined to store address of the each contact.
 *
 */
-#ifndef CONTACT_H_INCLUDED
-#define CONTACT_H_INCLUDED
+#ifndef PHONEHEADER_H_INCLUDED
+#define PHONEHEADER_H_INCLUDED
 #include <stdio.h>
 #include<stdlib.h>
 ///Maximum number of contacts that can be stored
@@ -148,4 +148,4 @@ void string_upper(char *st1);
 */
 void sort_contacts(int no);
 
-#endif // CONTACT_H_INCLUDED /* #define __CONTACT_H__ */
+#endif // PHONEHEADER_H_INCLUDED /* #define __PHONE_H__ */
