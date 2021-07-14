@@ -1,6 +1,6 @@
 /**
 * @file test_contact.c
-* contact application with 5 operations for testing
+* phonebook application with 5 operations for testing
 *
 */
 #include <CUnit/Basic.h>
