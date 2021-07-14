@@ -1,12 +1,12 @@
 /**
-* @file contact_operations.c
+* @file phonebook_operations.c
 * phonebook application with 5 operations
 *
 */
 #include <stdio.h>
 #include <stdlib.h>
 #include<string.h>
-#include <contactheader.h>
+#include <phoneheader.h>
 
 //Listing the contact
 int listing(int no)
