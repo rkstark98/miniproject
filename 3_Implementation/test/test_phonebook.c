@@ -1,5 +1,5 @@
 /**
-* @file test_contact.c
+* @file test_phonebook.c
 * phonebook application with 5 operations for testing
 *
 */
@@ -9,8 +9,8 @@
 #include<stdlib.h>
 #include<string.h>
 /* Modify these two lines according to the project */
-#include <contactheader.h>
-#define PROJECT_NAME    "contact"
+#include <phoneheader.h>
+#define PROJECT_NAME    "phonebook"
 
 /* Prototypes for all the test functions */
 void test_listing(void);
