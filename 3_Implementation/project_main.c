@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<string.h>
-#include <contactheader.h>
+#include <phoneheader.h>
 
 /// Global variable to store total no of contacts.Initially no contacts.
 int no_of_contacts=0;
@@ -25,10 +25,10 @@ int main()
 {
     int choice;
     char f_name[30];
-    printf("\t\t\t\t-------------CONTACT MANAGEMENT SYSTEM---------------\n\n\n\n");
+    printf("\t\t\t\t-------------PHONEBOOK MANAGEMENT SYSTEM---------------\n\n\n\n");
 first: printf("\t\t\t\tList of operations\n\n");
-       printf("\t 1)LIST THE RECORD \t 2)ADD A RECORD \t 3)DELETE A RECORD \n \t 4)MODIFY A RECORD \t 5)SEARCH A RECORD \t 6)EXIT");
-       printf("\n\nEnter choice:");
+       printf("\t 1)LIST THE RECORDS \t 2)ADD A RECORD \t 3)DELETE A RECORD \n \t 4)MODIFY A RECORD \t 5)SEARCH A RECORD \t 6)EXIT");
+       printf("\n\nEnter your choice:");
        scanf("%d",&choice);
        switch(choice)
        {
