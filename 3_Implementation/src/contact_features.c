@@ -1,6 +1,6 @@
 /**
-* @file contact_features.c
-* contact app with 5 operations
+* @file contact_operations.c
+* phonebook application with 5 operations
 *
 */
 #include <stdio.h>
@@ -32,7 +32,7 @@ int listing(int no)
 //Adding a new contact
 int adding(int no,char *f_name)
 {
-	if(no==MAX_CONT)
+	if(no==MAX_CONTACTS)
 	{
 		printf("Database is full...!!");
 		return(no);
