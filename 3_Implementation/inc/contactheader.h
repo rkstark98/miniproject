@@ -1,6 +1,6 @@
 /**
-* @file phoneheader.h
-* Phonebook header file. This header file contains definitions of all the functions. \n Structure is defined to store contact deatils. \n Array pointers of structure is defined to store address of the each contact.
+* @file contactheader.h
+* contact header file. This header file contains definitions of all the functions. \n Structure is defined to store contact deatils. \n Array pointers of structure is defined to store address of the each contact.
 *
 */
 #ifndef CONTACT_H_INCLUDED
